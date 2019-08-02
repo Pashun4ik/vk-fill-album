@@ -1,0 +1,25 @@
+{
+  "name": "vk-fill-album",
+  "version": "1.0.0",
+  "description": "Наполняет альбом картинками",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pashun4ik/vk-fill-album.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pashun4ik/vk-fill-album/issues"
+  },
+  "homepage": "https://github.com/Pashun4ik/vk-fill-album#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "vk-io": "^4.0.0-rc.20"
+  }
+}
