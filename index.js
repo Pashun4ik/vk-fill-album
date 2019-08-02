@@ -42,7 +42,7 @@ vk.api.photos
             const formData = {
                 file: fs.createReadStream(path.resolve(dir,  image))
             }
-            
+
             const {aid, hash, server, photos_list} = await request.post({
                 url: upload_url,
                 formData,
@@ -59,6 +59,6 @@ vk.api.photos
                 .then(([x]) => x)
                 .then(({id}) => console.log({id}))
 
-            await sleep(300)
+            await sleep(config.sleepMs)
         }
     })
